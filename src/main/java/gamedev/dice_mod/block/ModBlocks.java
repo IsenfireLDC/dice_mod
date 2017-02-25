@@ -6,8 +6,10 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModBlocks {
 	
+	public static BlockDie blockDie;
+	
 	public static void init() {
-		
+		blockDie = register(new BlockDie());
 	}
 	
 	private static <T extends Block> T register(T block, ItemBlock itemBlock) {
@@ -17,5 +19,10 @@ public class ModBlocks {
 		}
 		return block;
 	}
-
+	
+	private static <T extends Block> T register(T block) {
+		ItemBlock itemBlock = new ItemBlock(block);
+		itemBlock.setRegistryName(block.getRegistryName());
+		return register(block, itemBlock);
+	}
 }

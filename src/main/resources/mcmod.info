@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "",
+  "modid": "gddm",
+  "name": "Dice Mod",
+  "description": "Game Dev's dice mod.",
+  "version": "1.0.0",
+  "mcversion": "1.11.2",
+  "url": "https://github.com/IsenfireLDC/dice_mod",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Ben K", "Dylan", "Xander"],
+  "credits": "",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
