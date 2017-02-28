@@ -5,7 +5,11 @@ import net.minecraft.tileentity.TileEntity;
 
 public class TileEntityDie extends TileEntity {
 	
-	private int max = 6;
+	private int max;
+	
+	public TileEntityDie (int max) {
+		this.max = max;
+	}
 	
 	@Override
 	public NBTTagCompound writeToNBT(NBTTagCompound compound) {
@@ -18,6 +22,10 @@ public class TileEntityDie extends TileEntity {
 		max = compound.getInteger("max");
 		super.readFromNBT(compound);
 	}
+	
+	/*public void setMax(int max) {
+		this.max = max;
+	}*/
 	
 	public int roll() {
 		int rolled = (int)Math.ceil(Math.random() * max);

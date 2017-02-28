@@ -1,2 +1,3 @@
 #Blocks
-tile.BlockDie.name=Basic Die
+tile.die6.name=Basic Die
+tile.die20.name=d20

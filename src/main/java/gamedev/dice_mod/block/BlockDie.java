@@ -6,7 +6,6 @@ import gamedev.dice_mod.tileentity.TileEntityDie;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
@@ -15,8 +14,11 @@ import net.minecraft.world.World;
 
 public class BlockDie extends BlockTileEntity<TileEntityDie> {
 	
-	public BlockDie() {
-		super(Material.ROCK, "die");
+	private int max;
+	
+	public BlockDie(String name, int max) {
+		super(Material.ROCK, name);
+		this.max = max;
 	}
 	
 	@Override
@@ -36,7 +38,7 @@ public class BlockDie extends BlockTileEntity<TileEntityDie> {
 	@Nullable
 	@Override
 	public TileEntityDie createTileEntity(World world, IBlockState state) {
-		return new TileEntityDie();
+		return new TileEntityDie(max);
 	}
 
 }
