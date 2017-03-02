@@ -1,0 +1,12 @@
+package gamedev.dice_mod.block;
+
+import net.minecraft.block.material.Material;
+import net.minecraft.tileentity.TileEntity;
+
+public abstract class BlockTileEntity<TE extends TileEntity> extends BlockBase {
+	
+	public BlockTileEntity(Material material, String name) {
+		super(material, name);
+	}
+
+}

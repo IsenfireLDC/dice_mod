@@ -1,0 +1,20 @@
+package gamedev.dice_mod.block;
+
+import net.minecraft.block.Block;
+import net.minecraft.item.ItemBlock;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
+public class ModBlocks {
+	
+	public static void init() {
+		
+	}
+	
+	private static <T extends Block> T register(T block) {
+		GameRegistry.register(block);
+		if (itemBlock != null) {
+			GameRegistry.register(itemBlock);
+		}
+	}
+
+}

@@ -1,0 +1,5 @@
+package gamedev.dice_mod.proxy;
+
+public class ClientProxy {
+
+}
