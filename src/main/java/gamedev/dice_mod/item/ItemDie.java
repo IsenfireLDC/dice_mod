@@ -20,7 +20,7 @@ public class ItemDie extends ItemBase {
 	@Override
     public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn) {
         ItemStack itemstack = playerIn.getHeldItem(handIn);
-        playerIn.sendMessage(new TextComponentString("Roll: " + Math.ceil(Math.random() * max)));
+        playerIn.sendMessage(new TextComponentString("Roll: " + (int)Math.ceil(Math.random() * max)));
         return new ActionResult(EnumActionResult.SUCCESS, itemstack);
     }
 
