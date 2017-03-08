@@ -1,6 +1,7 @@
 package gamedev.dice_mod;
 
 import gamedev.dice_mod.block.ModBlocks;
+import gamedev.dice_mod.item.ModItems;
 import gamedev.dice_mod.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -21,6 +22,9 @@ public class DiceMod {
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
+		System.out.println(Reference.NAME + " is loading!");
+		
+		ModItems.init();
 		ModBlocks.init();
 	}
 	

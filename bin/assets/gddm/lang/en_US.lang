@@ -1,3 +1,7 @@
 #Blocks
-tile.die6.name=Basic Die
-tile.die20.name=d20
+tile.die6b.name=Basic Die
+tile.die20b.name=d20
+
+#Items
+item.die6i.name=d6
+item.die20i.name=d20

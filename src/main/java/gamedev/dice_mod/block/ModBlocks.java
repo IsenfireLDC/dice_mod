@@ -6,12 +6,12 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModBlocks {
 	
-	public static BlockDie die6;
-	public static BlockDie die20;
+	public static BlockDie die6b;
+	public static BlockDie die20b;
 	
 	public static void init() {
-		die6 = register(new BlockDie("die6", 6));
-		die20 = register(new BlockDie("die20", 20));
+		die6b = register(new BlockDie("die6b", 6));
+		die20b = register(new BlockDie("die20b", 20));
 	}
 	
 	private static <T extends Block> T register(T block, ItemBlock itemBlock) {

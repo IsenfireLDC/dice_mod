@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="net.minecraft.block.Block"/>
-<fullyQualifiedTypeName name="gamedev.dice_mod.DiceMod"/>
 <fullyQualifiedTypeName name="gamedev.dice_mod.Reference"/>
 <fullyQualifiedTypeName name="net.minecraft.item.Item"/>
 <fullyQualifiedTypeName name="gamedev.dice_mod.block.ModBlocks"/>
@@ -10,4 +9,7 @@
 <fullyQualifiedTypeName name="net.minecraft.world.IBlockAccess"/>
 <fullyQualifiedTypeName name="net.minecraft.world.World"/>
 <fullyQualifiedTypeName name="javax.annotation.Nullable"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ModItems"/>
+<fullyQualifiedTypeName name="gamedev.dice_mod.DiceMod"/>
 </qualifiedTypeNameHistroy>

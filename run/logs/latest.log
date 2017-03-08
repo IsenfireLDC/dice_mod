@@ -1,10 +1,10 @@
-[16:07:08] [Client thread/INFO]: Setting user: Player194
-[16:07:28] [Client thread/WARN]: Skipping bad option: lastServer:
-[16:07:28] [Client thread/INFO]: LWJGL Version: 2.9.4
-[16:07:31] [Client thread/INFO]: [STDOUT]: ---- Minecraft Crash Report ----
-// I bet Cylons wouldn't have this problem.
+[13:46:14] [Client thread/INFO]: Setting user: Player677
+[13:46:32] [Client thread/WARN]: Skipping bad option: lastServer:
+[13:46:32] [Client thread/INFO]: LWJGL Version: 2.9.4
+[13:46:36] [Client thread/INFO]: [STDOUT]: ---- Minecraft Crash Report ----
+// Oh - I know what I did wrong!
 
-Time: 2/28/17 4:07 PM
+Time: 3/8/17 1:46 PM
 Description: Loading screen debug info
 
 This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
@@ -19,67 +19,75 @@ Details:
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_121, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 671596344 bytes (640 MB) / 1038876672 bytes (990 MB) up to 1038876672 bytes (990 MB)
+	Memory: 810542400 bytes (772 MB) / 1038876672 bytes (990 MB) up to 1038876672 bytes (990 MB)
 	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.5.13399 Compatibility Profile Context 15.201.1101.0' Renderer: 'AMD Radeon(TM) R4 Graphics'
-[16:07:42] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Dice Mod
-[16:08:18] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[16:08:19] [Thread-8/INFO]: Initializing LWJGL OpenAL
-[16:08:19] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[16:08:21] [Thread-8/INFO]: OpenAL initialized.
-[16:08:22] [Sound Library Loader/INFO]: Sound engine started
-[16:08:44] [Client thread/INFO]: Created: 16x16 textures-atlas
-[16:08:47] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Dice Mod
-[16:09:00] [Client thread/INFO]: SoundSystem shutting down...
-[16:09:00] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[16:09:00] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[16:09:00] [Thread-10/INFO]: Initializing LWJGL OpenAL
-[16:09:00] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[16:09:00] [Thread-10/INFO]: OpenAL initialized.
-[16:09:01] [Sound Library Loader/INFO]: Sound engine started
-[16:09:17] [Client thread/INFO]: Created: 512x512 textures-atlas
-[16:09:24] [Client thread/WARN]: Skipping bad option: lastServer:
-[16:09:27] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[16:09:58] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
-[16:09:58] [Server thread/INFO]: Generating keypair
-[16:10:03] [Server thread/INFO]: Preparing start region for level 0
-[16:10:04] [Server thread/INFO]: Preparing spawn area: 4%
-[16:10:05] [Server thread/INFO]: Preparing spawn area: 5%
-[16:10:06] [Server thread/INFO]: Preparing spawn area: 6%
-[16:10:07] [Server thread/INFO]: Preparing spawn area: 9%
-[16:10:08] [Server thread/INFO]: Preparing spawn area: 11%
-[16:10:09] [Server thread/INFO]: Preparing spawn area: 13%
-[16:10:10] [Server thread/INFO]: Preparing spawn area: 16%
-[16:10:11] [Server thread/INFO]: Preparing spawn area: 19%
-[16:10:12] [Server thread/INFO]: Preparing spawn area: 22%
-[16:10:13] [Server thread/INFO]: Preparing spawn area: 25%
-[16:10:14] [Server thread/INFO]: Preparing spawn area: 27%
-[16:10:15] [Server thread/INFO]: Preparing spawn area: 30%
-[16:10:16] [Server thread/INFO]: Preparing spawn area: 35%
-[16:10:17] [Server thread/INFO]: Preparing spawn area: 39%
-[16:10:18] [Server thread/INFO]: Preparing spawn area: 43%
-[16:10:19] [Server thread/INFO]: Preparing spawn area: 46%
-[16:10:20] [Server thread/INFO]: Preparing spawn area: 51%
-[16:10:21] [Server thread/INFO]: Preparing spawn area: 54%
-[16:10:22] [Server thread/INFO]: Preparing spawn area: 57%
-[16:10:23] [Server thread/INFO]: Preparing spawn area: 60%
-[16:10:24] [Server thread/INFO]: Preparing spawn area: 64%
-[16:10:25] [Server thread/INFO]: Preparing spawn area: 68%
-[16:10:26] [Server thread/INFO]: Preparing spawn area: 72%
-[16:10:27] [Server thread/INFO]: Preparing spawn area: 76%
-[16:10:28] [Server thread/INFO]: Preparing spawn area: 78%
-[16:10:29] [Server thread/INFO]: Preparing spawn area: 81%
-[16:10:30] [Server thread/INFO]: Preparing spawn area: 85%
-[16:10:31] [Server thread/INFO]: Preparing spawn area: 89%
-[16:10:33] [Server thread/INFO]: Preparing spawn area: 93%
-[16:10:34] [Server thread/INFO]: Preparing spawn area: 98%
-[16:10:34] [Server thread/INFO]: Changing view distance to 12, from 10
-[16:10:39] [Server thread/INFO]: Player194[local:E:6557ddc8] logged in with entity id 572 at (-120.5, 65.0, 152.5)
-[16:10:39] [Server thread/INFO]: Player194 joined the game
-[16:10:45] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@4752ad54[id=1de0626e-6c80-37c2-856b-2a8735302b74,name=Player194,properties={},legacy=false]
+[13:46:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Dice Mod
+[13:46:53] [Client thread/INFO]: [STDOUT]: Dice Mod is loading!
+[13:47:50] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:47:50] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[13:47:50] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:47:54] [Thread-8/INFO]: OpenAL initialized.
+[13:47:54] [Sound Library Loader/INFO]: Sound engine started
+[13:48:16] [Client thread/INFO]: Created: 16x16 textures-atlas
+[13:48:20] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Dice Mod
+[13:48:35] [Client thread/INFO]: SoundSystem shutting down...
+[13:48:35] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[13:48:35] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:48:36] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[13:48:36] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:48:36] [Thread-10/INFO]: OpenAL initialized.
+[13:48:36] [Sound Library Loader/INFO]: Sound engine started
+[13:48:55] [Client thread/INFO]: Created: 512x512 textures-atlas
+[13:49:02] [Client thread/WARN]: Skipping bad option: lastServer:
+[13:49:07] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[13:49:46] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[13:49:46] [Server thread/INFO]: Generating keypair
+[13:49:52] [Server thread/INFO]: Preparing start region for level 0
+[13:49:53] [Server thread/INFO]: Preparing spawn area: 2%
+[13:49:54] [Server thread/INFO]: Preparing spawn area: 4%
+[13:49:56] [Server thread/INFO]: Preparing spawn area: 5%
+[13:49:57] [Server thread/INFO]: Preparing spawn area: 7%
+[13:49:58] [Server thread/INFO]: Preparing spawn area: 10%
+[13:49:59] [Server thread/INFO]: Preparing spawn area: 12%
+[13:50:00] [Server thread/INFO]: Preparing spawn area: 15%
+[13:50:01] [Server thread/INFO]: Preparing spawn area: 15%
+[13:50:02] [Server thread/INFO]: Preparing spawn area: 16%
+[13:50:03] [Server thread/INFO]: Preparing spawn area: 17%
+[13:50:04] [Server thread/INFO]: Preparing spawn area: 19%
+[13:50:05] [Server thread/INFO]: Preparing spawn area: 20%
+[13:50:06] [Server thread/INFO]: Preparing spawn area: 23%
+[13:50:08] [Server thread/INFO]: Preparing spawn area: 26%
+[13:50:09] [Server thread/INFO]: Preparing spawn area: 28%
+[13:50:10] [Server thread/INFO]: Preparing spawn area: 31%
+[13:50:11] [Server thread/INFO]: Preparing spawn area: 35%
+[13:50:12] [Server thread/INFO]: Preparing spawn area: 40%
+[13:50:13] [Server thread/INFO]: Preparing spawn area: 44%
+[13:50:14] [Server thread/INFO]: Preparing spawn area: 46%
+[13:50:15] [Server thread/INFO]: Preparing spawn area: 50%
+[13:50:16] [Server thread/INFO]: Preparing spawn area: 53%
+[13:50:17] [Server thread/INFO]: Preparing spawn area: 54%
+[13:50:18] [Server thread/INFO]: Preparing spawn area: 59%
+[13:50:19] [Server thread/INFO]: Preparing spawn area: 63%
+[13:50:20] [Server thread/INFO]: Preparing spawn area: 66%
+[13:50:21] [Server thread/INFO]: Preparing spawn area: 70%
+[13:50:22] [Server thread/INFO]: Preparing spawn area: 75%
+[13:50:23] [Server thread/INFO]: Preparing spawn area: 80%
+[13:50:24] [Server thread/INFO]: Preparing spawn area: 87%
+[13:50:25] [Server thread/INFO]: Preparing spawn area: 92%
+[13:50:26] [Server thread/INFO]: Preparing spawn area: 96%
+[13:50:28] [Server thread/INFO]: Changing view distance to 12, from 10
+[13:50:36] [Server thread/INFO]: Player677[local:E:bcdb3630] logged in with entity id 806 at (-63.5, 77.0, 115.5)
+[13:50:36] [Server thread/INFO]: Player677 joined the game
+[13:50:43] [Server thread/INFO]: Saving and pausing game...
+[13:50:44] [Server thread/INFO]: Saving chunks for level 'gddm-1.0.0 ItemDie'/Overworld
+[13:50:48] [Server thread/INFO]: Saving chunks for level 'gddm-1.0.0 ItemDie'/Nether
+[13:50:48] [Server thread/INFO]: Saving chunks for level 'gddm-1.0.0 ItemDie'/The End
+[13:50:49] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 20741ms behind, skipping 414 tick(s)
+[13:50:49] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@60daf995[id=752a0b44-017a-3fb3-b7fd-a355ab650513,name=Player677,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
@@ -101,274 +109,251 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_121]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_121]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_121]
-[16:10:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 24435ms behind, skipping 488 tick(s)
-[16:11:11] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 12154ms behind, skipping 243 tick(s)
-[16:11:40] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 22214ms behind, skipping 444 tick(s)
-[16:11:46] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5454ms behind, skipping 109 tick(s)
-[16:12:06] [Server thread/INFO]: Player194 has just earned the achievement [Taking Inventory]
-[16:12:06] [Client thread/INFO]: [CHAT] Player194 has just earned the achievement [Taking Inventory]
-[16:12:24] [Client thread/INFO]: [CHAT] Roll: 6
-[16:12:24] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:24] [Client thread/INFO]: [CHAT] Roll: 4
-[16:12:24] [Client thread/INFO]: [CHAT] Roll: 6
-[16:12:24] [Client thread/INFO]: [CHAT] Roll: 4
-[16:12:25] [Client thread/INFO]: [CHAT] Roll: 4
-[16:12:25] [Client thread/INFO]: [CHAT] Roll: 6
-[16:12:25] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:25] [Client thread/INFO]: [CHAT] Roll: 6
-[16:12:25] [Client thread/INFO]: [CHAT] Roll: 4
-[16:12:26] [Client thread/INFO]: [CHAT] Roll: 6
-[16:12:26] [Client thread/INFO]: [CHAT] Roll: 1
-[16:12:26] [Client thread/INFO]: [CHAT] Roll: 1
-[16:12:26] [Client thread/INFO]: [CHAT] Roll: 1
-[16:12:26] [Client thread/INFO]: [CHAT] Roll: 6
-[16:12:27] [Client thread/INFO]: [CHAT] Roll: 3
-[16:12:27] [Client thread/INFO]: [CHAT] Roll: 3
-[16:12:27] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:27] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:27] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:28] [Client thread/INFO]: [CHAT] Roll: 1
-[16:12:28] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:28] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:28] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:28] [Client thread/INFO]: [CHAT] Roll: 6
-[16:12:29] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:29] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:29] [Client thread/INFO]: [CHAT] Roll: 1
-[16:12:29] [Client thread/INFO]: [CHAT] Roll: 6
-[16:12:29] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 27397ms behind, skipping 547 tick(s)
-[16:12:29] [Client thread/INFO]: [CHAT] Roll: 4
-[16:12:30] [Client thread/INFO]: [CHAT] Roll: 3
-[16:12:30] [Client thread/INFO]: [CHAT] Roll: 6
-[16:12:30] [Client thread/INFO]: [CHAT] Roll: 3
-[16:12:30] [Client thread/INFO]: [CHAT] Roll: 3
-[16:12:30] [Client thread/INFO]: [CHAT] Roll: 3
-[16:12:31] [Client thread/INFO]: [CHAT] Roll: 6
-[16:12:32] [Client thread/INFO]: [CHAT] Roll: 8
-[16:12:33] [Client thread/INFO]: [CHAT] Roll: 7
-[16:12:33] [Client thread/INFO]: [CHAT] Roll: 9
-[16:12:33] [Client thread/INFO]: [CHAT] Roll: 19
-[16:12:33] [Client thread/INFO]: [CHAT] Roll: 6
-[16:12:33] [Client thread/INFO]: [CHAT] Roll: 19
-[16:12:33] [Client thread/INFO]: [CHAT] Roll: 1
-[16:12:34] [Client thread/INFO]: [CHAT] Roll: 11
-[16:12:34] [Client thread/INFO]: [CHAT] Roll: 8
-[16:12:34] [Client thread/INFO]: [CHAT] Roll: 19
-[16:12:34] [Client thread/INFO]: [CHAT] Roll: 7
-[16:12:34] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4502ms behind, skipping 90 tick(s)
-[16:12:34] [Client thread/INFO]: [CHAT] Roll: 6
-[16:12:34] [Client thread/INFO]: [CHAT] Roll: 13
-[16:12:35] [Client thread/INFO]: [CHAT] Roll: 15
-[16:12:35] [Client thread/INFO]: [CHAT] Roll: 17
-[16:12:35] [Client thread/INFO]: [CHAT] Roll: 1
-[16:12:35] [Client thread/INFO]: [CHAT] Roll: 18
-[16:12:35] [Client thread/INFO]: [CHAT] Roll: 1
-[16:12:36] [Client thread/INFO]: [CHAT] Roll: 20
-[16:12:36] [Client thread/INFO]: [CHAT] Roll: 11
-[16:12:36] [Client thread/INFO]: [CHAT] Roll: 15
-[16:12:36] [Client thread/INFO]: [CHAT] Roll: 9
-[16:12:36] [Client thread/INFO]: [CHAT] Roll: 12
-[16:12:36] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:36] [Client thread/INFO]: [CHAT] Roll: 7
-[16:12:36] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:37] [Client thread/INFO]: [CHAT] Roll: 3
-[16:12:37] [Client thread/INFO]: [CHAT] Roll: 9
-[16:12:37] [Client thread/INFO]: [CHAT] Roll: 7
-[16:12:37] [Client thread/INFO]: [CHAT] Roll: 17
-[16:12:37] [Client thread/INFO]: [CHAT] Roll: 16
-[16:12:37] [Client thread/INFO]: [CHAT] Roll: 6
-[16:12:37] [Client thread/INFO]: [CHAT] Roll: 7
-[16:12:38] [Client thread/INFO]: [CHAT] Roll: 2
-[16:12:38] [Client thread/INFO]: [CHAT] Roll: 10
-[16:12:38] [Client thread/INFO]: [CHAT] Roll: 3
-[16:12:38] [Client thread/INFO]: [CHAT] Roll: 9
-[16:12:38] [Client thread/INFO]: [CHAT] Roll: 13
-[16:12:38] [Client thread/INFO]: [CHAT] Roll: 11
-[16:12:38] [Client thread/INFO]: [CHAT] Roll: 12
-[16:12:38] [Client thread/INFO]: [CHAT] Roll: 14
-[16:12:38] [Client thread/INFO]: [CHAT] Roll: 13
-[16:12:39] [Client thread/INFO]: [CHAT] Roll: 18
-[16:12:39] [Client thread/INFO]: [CHAT] Roll: 18
-[16:12:39] [Client thread/INFO]: [CHAT] Roll: 10
-[16:12:39] [Client thread/INFO]: [CHAT] Roll: 14
-[16:12:39] [Client thread/INFO]: [CHAT] Roll: 6
-[16:12:39] [Client thread/INFO]: [CHAT] Roll: 15
-[16:12:39] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:39] [Client thread/INFO]: [CHAT] Roll: 1
-[16:12:39] [Client thread/INFO]: [CHAT] Roll: 3
-[16:12:39] [Client thread/INFO]: [CHAT] Roll: 17
-[16:12:39] [Client thread/INFO]: [CHAT] Roll: 2
-[16:12:40] [Client thread/INFO]: [CHAT] Roll: 17
-[16:12:40] [Client thread/INFO]: [CHAT] Roll: 16
-[16:12:40] [Client thread/INFO]: [CHAT] Roll: 13
-[16:12:40] [Client thread/INFO]: [CHAT] Roll: 8
-[16:12:40] [Client thread/INFO]: [CHAT] Roll: 16
-[16:12:40] [Client thread/INFO]: [CHAT] Roll: 9
-[16:12:40] [Client thread/INFO]: [CHAT] Roll: 12
-[16:12:40] [Client thread/INFO]: [CHAT] Roll: 4
-[16:12:40] [Client thread/INFO]: [CHAT] Roll: 10
-[16:12:40] [Client thread/INFO]: [CHAT] Roll: 4
-[16:12:40] [Client thread/INFO]: [CHAT] Roll: 9
-[16:12:41] [Client thread/INFO]: [CHAT] Roll: 7
-[16:12:41] [Client thread/INFO]: [CHAT] Roll: 20
-[16:12:41] [Client thread/INFO]: [CHAT] Roll: 7
-[16:12:41] [Client thread/INFO]: [CHAT] Roll: 19
-[16:12:41] [Client thread/INFO]: [CHAT] Roll: 6
-[16:12:41] [Client thread/INFO]: [CHAT] Roll: 10
-[16:12:41] [Client thread/INFO]: [CHAT] Roll: 15
-[16:12:41] [Client thread/INFO]: [CHAT] Roll: 18
-[16:12:41] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:41] [Client thread/INFO]: [CHAT] Roll: 3
-[16:12:41] [Client thread/INFO]: [CHAT] Roll: 14
-[16:12:42] [Client thread/INFO]: [CHAT] Roll: 3
-[16:12:42] [Client thread/INFO]: [CHAT] Roll: 9
-[16:12:42] [Client thread/INFO]: [CHAT] Roll: 17
-[16:12:42] [Client thread/INFO]: [CHAT] Roll: 7
-[16:12:42] [Client thread/INFO]: [CHAT] Roll: 12
-[16:12:42] [Client thread/INFO]: [CHAT] Roll: 7
-[16:12:42] [Client thread/INFO]: [CHAT] Roll: 16
-[16:12:42] [Client thread/INFO]: [CHAT] Roll: 17
-[16:12:42] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:42] [Client thread/INFO]: [CHAT] Roll: 17
-[16:12:43] [Client thread/INFO]: [CHAT] Roll: 4
-[16:12:43] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:43] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:43] [Client thread/INFO]: [CHAT] Roll: 3
-[16:12:43] [Client thread/INFO]: [CHAT] Roll: 17
-[16:12:43] [Client thread/INFO]: [CHAT] Roll: 15
-[16:12:43] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:43] [Client thread/INFO]: [CHAT] Roll: 1
-[16:12:43] [Client thread/INFO]: [CHAT] Roll: 6
-[16:12:43] [Client thread/INFO]: [CHAT] Roll: 13
-[16:12:44] [Client thread/INFO]: [CHAT] Roll: 3
-[16:12:44] [Client thread/INFO]: [CHAT] Roll: 11
-[16:12:44] [Client thread/INFO]: [CHAT] Roll: 12
-[16:12:44] [Client thread/INFO]: [CHAT] Roll: 13
-[16:12:44] [Client thread/INFO]: [CHAT] Roll: 15
-[16:12:44] [Client thread/INFO]: [CHAT] Roll: 17
-[16:12:44] [Client thread/INFO]: [CHAT] Roll: 1
-[16:12:44] [Client thread/INFO]: [CHAT] Roll: 4
-[16:12:44] [Client thread/INFO]: [CHAT] Roll: 2
-[16:12:44] [Client thread/INFO]: [CHAT] Roll: 15
-[16:12:45] [Client thread/INFO]: [CHAT] Roll: 1
-[16:12:45] [Client thread/INFO]: [CHAT] Roll: 17
-[16:12:45] [Client thread/INFO]: [CHAT] Roll: 1
-[16:12:45] [Client thread/INFO]: [CHAT] Roll: 12
-[16:12:45] [Client thread/INFO]: [CHAT] Roll: 9
-[16:12:45] [Client thread/INFO]: [CHAT] Roll: 16
-[16:12:45] [Client thread/INFO]: [CHAT] Roll: 7
-[16:12:45] [Client thread/INFO]: [CHAT] Roll: 4
-[16:12:45] [Client thread/INFO]: [CHAT] Roll: 8
-[16:12:45] [Client thread/INFO]: [CHAT] Roll: 12
-[16:12:45] [Client thread/INFO]: [CHAT] Roll: 2
-[16:12:46] [Client thread/INFO]: [CHAT] Roll: 6
-[16:12:46] [Client thread/INFO]: [CHAT] Roll: 8
-[16:12:46] [Client thread/INFO]: [CHAT] Roll: 18
-[16:12:46] [Client thread/INFO]: [CHAT] Roll: 17
-[16:12:46] [Client thread/INFO]: [CHAT] Roll: 6
-[16:12:46] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:46] [Client thread/INFO]: [CHAT] Roll: 17
-[16:12:46] [Client thread/INFO]: [CHAT] Roll: 11
-[16:12:46] [Client thread/INFO]: [CHAT] Roll: 8
-[16:12:46] [Client thread/INFO]: [CHAT] Roll: 2
-[16:12:47] [Client thread/INFO]: [CHAT] Roll: 1
-[16:12:47] [Client thread/INFO]: [CHAT] Roll: 2
-[16:12:47] [Client thread/INFO]: [CHAT] Roll: 13
-[16:12:47] [Client thread/INFO]: [CHAT] Roll: 12
-[16:12:47] [Client thread/INFO]: [CHAT] Roll: 20
-[16:12:47] [Client thread/INFO]: [CHAT] Roll: 13
-[16:12:47] [Client thread/INFO]: [CHAT] Roll: 6
-[16:12:47] [Client thread/INFO]: [CHAT] Roll: 16
-[16:12:47] [Client thread/INFO]: [CHAT] Roll: 11
-[16:12:48] [Client thread/INFO]: [CHAT] Roll: 11
-[16:12:48] [Client thread/INFO]: [CHAT] Roll: 1
-[16:12:48] [Client thread/INFO]: [CHAT] Roll: 1
-[16:12:49] [Client thread/INFO]: [CHAT] Roll: 16
-[16:12:50] [Client thread/INFO]: [CHAT] Roll: 12
-[16:12:50] [Client thread/INFO]: [CHAT] Roll: 4
-[16:12:50] [Client thread/INFO]: [CHAT] Roll: 11
-[16:12:50] [Client thread/INFO]: [CHAT] Roll: 18
-[16:12:50] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:51] [Client thread/INFO]: [CHAT] Roll: 4
-[16:12:51] [Client thread/INFO]: [CHAT] Roll: 9
-[16:12:51] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:53] [Client thread/INFO]: [CHAT] Roll: 8
-[16:12:54] [Client thread/INFO]: [CHAT] Roll: 15
-[16:12:54] [Client thread/INFO]: [CHAT] Roll: 13
-[16:12:54] [Client thread/INFO]: [CHAT] Roll: 2
-[16:12:54] [Client thread/INFO]: [CHAT] Roll: 17
-[16:12:54] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:54] [Client thread/INFO]: [CHAT] Roll: 18
-[16:12:54] [Client thread/INFO]: [CHAT] Roll: 19
-[16:12:54] [Client thread/INFO]: [CHAT] Roll: 3
-[16:12:55] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:55] [Client thread/INFO]: [CHAT] Roll: 18
-[16:12:55] [Client thread/INFO]: [CHAT] Roll: 14
-[16:12:55] [Client thread/INFO]: [CHAT] Roll: 3
-[16:12:55] [Client thread/INFO]: [CHAT] Roll: 13
-[16:12:55] [Client thread/INFO]: [CHAT] Roll: 8
-[16:12:55] [Client thread/INFO]: [CHAT] Roll: 2
-[16:12:55] [Client thread/INFO]: [CHAT] Roll: 16
-[16:12:56] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:56] [Client thread/INFO]: [CHAT] Roll: 4
-[16:12:56] [Client thread/INFO]: [CHAT] Roll: 8
-[16:12:56] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:56] [Client thread/INFO]: [CHAT] Roll: 20
-[16:12:56] [Client thread/INFO]: [CHAT] Roll: 18
-[16:12:57] [Client thread/INFO]: [CHAT] Roll: 2
-[16:12:57] [Client thread/INFO]: [CHAT] Roll: 18
-[16:12:57] [Client thread/INFO]: [CHAT] Roll: 12
-[16:12:57] [Client thread/INFO]: [CHAT] Roll: 11
-[16:12:57] [Client thread/INFO]: [CHAT] Roll: 2
-[16:12:57] [Client thread/INFO]: [CHAT] Roll: 18
-[16:12:57] [Client thread/INFO]: [CHAT] Roll: 11
-[16:12:57] [Client thread/INFO]: [CHAT] Roll: 15
-[16:12:58] [Client thread/INFO]: [CHAT] Roll: 8
-[16:12:58] [Client thread/INFO]: [CHAT] Roll: 7
-[16:12:58] [Client thread/INFO]: [CHAT] Roll: 15
-[16:12:58] [Client thread/INFO]: [CHAT] Roll: 5
-[16:12:58] [Client thread/INFO]: [CHAT] Roll: 16
-[16:12:58] [Client thread/INFO]: [CHAT] Roll: 18
-[16:12:58] [Client thread/INFO]: [CHAT] Roll: 4
-[16:12:59] [Client thread/INFO]: [CHAT] Roll: 17
-[16:12:59] [Client thread/INFO]: [CHAT] Roll: 4
-[16:12:59] [Client thread/INFO]: [CHAT] Roll: 15
-[16:12:59] [Client thread/INFO]: [CHAT] Roll: 7
-[16:12:59] [Client thread/INFO]: [CHAT] Roll: 19
-[16:12:59] [Client thread/INFO]: [CHAT] Roll: 9
-[16:12:59] [Client thread/INFO]: [CHAT] Roll: 17
-[16:12:59] [Client thread/INFO]: [CHAT] Roll: 14
-[16:12:59] [Client thread/INFO]: [CHAT] Roll: 18
-[16:13:00] [Client thread/INFO]: [CHAT] Roll: 16
-[16:13:14] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 21982ms behind, skipping 439 tick(s)
-[16:13:16] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2273ms behind, skipping 45 tick(s)
-[16:13:55] [Client thread/INFO]: [CHAT] Roll: 5
-[16:13:55] [Client thread/INFO]: [CHAT] Roll: 20
-[16:13:56] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 18774ms behind, skipping 375 tick(s)
-[16:13:56] [Client thread/INFO]: [CHAT] Roll: 7
-[16:13:56] [Client thread/INFO]: [CHAT] Roll: 3
-[16:13:56] [Client thread/INFO]: [CHAT] Roll: 6
-[16:13:56] [Client thread/INFO]: [CHAT] Roll: 5
-[16:13:57] [Client thread/INFO]: [CHAT] Roll: 1
-[16:13:57] [Client thread/INFO]: [CHAT] Roll: 11
-[16:13:57] [Client thread/INFO]: [CHAT] Roll: 5
-[16:13:57] [Client thread/INFO]: [CHAT] Roll: 11
-[16:13:57] [Client thread/INFO]: [CHAT] Roll: 17
-[16:13:58] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2179ms behind, skipping 43 tick(s)
-[16:14:20] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4692ms behind, skipping 93 tick(s)
-[16:14:28] [Server thread/INFO]: Saving and pausing game...
-[16:14:28] [Server thread/INFO]: Saving chunks for level 'gddm-1.0.0 BlockDie v3'/Overworld
-[16:14:29] [Server thread/INFO]: Saving chunks for level 'gddm-1.0.0 BlockDie v3'/Nether
-[16:14:29] [Server thread/INFO]: Saving chunks for level 'gddm-1.0.0 BlockDie v3'/The End
-[16:14:29] [Server thread/INFO]: Stopping server
-[16:14:29] [Server thread/INFO]: Saving players
-[16:14:29] [Server thread/INFO]: Player194 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[16:14:29] [Server thread/INFO]: Player194 left the game
-[16:14:29] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[16:14:29] [Server thread/INFO]: Saving worlds
-[16:14:29] [Server thread/INFO]: Saving chunks for level 'gddm-1.0.0 BlockDie v3'/Overworld
-[16:14:29] [Server thread/INFO]: Saving chunks for level 'gddm-1.0.0 BlockDie v3'/Nether
-[16:14:29] [Server thread/INFO]: Saving chunks for level 'gddm-1.0.0 BlockDie v3'/The End
-[16:14:33] [Client thread/INFO]: Stopping!
-[16:14:33] [Client thread/INFO]: SoundSystem shutting down...
-[16:14:34] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[13:50:54] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2316ms behind, skipping 46 tick(s)
+[13:51:23] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 10941ms behind, skipping 218 tick(s)
+[13:51:31] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2257ms behind, skipping 45 tick(s)
+[13:51:42] [Server thread/INFO]: Player677 has just earned the achievement [Taking Inventory]
+[13:51:43] [Client thread/INFO]: [CHAT] Player677 has just earned the achievement [Taking Inventory]
+[13:51:49] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2745ms behind, skipping 54 tick(s)
+[13:52:13] [Server thread/INFO]: [Player677: Given [d6] * 1 to Player677]
+[13:52:14] [Client thread/INFO]: [CHAT] Given [d6] * 1 to Player677
+[13:52:28] [Client thread/INFO]: [CHAT] Roll: 1.0
+[13:52:28] [Client thread/INFO]: [CHAT] Roll: 2.0
+[13:52:30] [Client thread/INFO]: [CHAT] Roll: 4.0
+[13:52:30] [Client thread/INFO]: [CHAT] Roll: 6.0
+[13:52:30] [Client thread/INFO]: [CHAT] Roll: 3.0
+[13:52:30] [Client thread/INFO]: [CHAT] Roll: 4.0
+[13:52:31] [Client thread/INFO]: [CHAT] Roll: 1.0
+[13:52:31] [Client thread/INFO]: [CHAT] Roll: 1.0
+[13:52:31] [Client thread/INFO]: [CHAT] Roll: 3.0
+[13:52:31] [Client thread/INFO]: [CHAT] Roll: 5.0
+[13:52:32] [Client thread/INFO]: [CHAT] Roll: 5.0
+[13:52:32] [Client thread/INFO]: [CHAT] Roll: 2.0
+[13:52:32] [Client thread/INFO]: [CHAT] Roll: 6.0
+[13:52:33] [Client thread/INFO]: [CHAT] Roll: 6.0
+[13:52:33] [Client thread/INFO]: [CHAT] Roll: 6.0
+[13:52:33] [Client thread/INFO]: [CHAT] Roll: 1.0
+[13:52:33] [Client thread/INFO]: [CHAT] Roll: 5.0
+[13:52:34] [Client thread/INFO]: [CHAT] Roll: 4.0
+[13:52:34] [Client thread/INFO]: [CHAT] Roll: 6.0
+[13:52:34] [Client thread/INFO]: [CHAT] Roll: 1.0
+[13:52:35] [Client thread/INFO]: [CHAT] Roll: 4.0
+[13:52:35] [Client thread/INFO]: [CHAT] Roll: 3.0
+[13:52:36] [Client thread/INFO]: [CHAT] Roll: 5.0
+[13:52:36] [Client thread/INFO]: [CHAT] Roll: 6.0
+[13:52:36] [Client thread/INFO]: [CHAT] Roll: 4.0
+[13:52:36] [Client thread/INFO]: [CHAT] Roll: 3.0
+[13:52:36] [Client thread/INFO]: [CHAT] Roll: 2.0
+[13:52:36] [Client thread/INFO]: [CHAT] Roll: 5.0
+[13:52:37] [Client thread/INFO]: [CHAT] Roll: 6.0
+[13:52:37] [Client thread/INFO]: [CHAT] Roll: 5.0
+[13:52:37] [Client thread/INFO]: [CHAT] Roll: 1.0
+[13:52:37] [Client thread/INFO]: [CHAT] Roll: 1.0
+[13:52:37] [Client thread/INFO]: [CHAT] Roll: 2.0
+[13:52:37] [Client thread/INFO]: [CHAT] Roll: 1.0
+[13:52:37] [Client thread/INFO]: [CHAT] Roll: 2.0
+[13:52:37] [Client thread/INFO]: [CHAT] Roll: 6.0
+[13:52:37] [Client thread/INFO]: [CHAT] Roll: 3.0
+[13:52:37] [Client thread/INFO]: [CHAT] Roll: 1.0
+[13:52:38] [Client thread/INFO]: [CHAT] Roll: 2.0
+[13:52:38] [Client thread/INFO]: [CHAT] Roll: 4.0
+[13:52:38] [Client thread/INFO]: [CHAT] Roll: 6.0
+[13:52:38] [Client thread/INFO]: [CHAT] Roll: 5.0
+[13:52:38] [Client thread/INFO]: [CHAT] Roll: 6.0
+[13:52:38] [Client thread/INFO]: [CHAT] Roll: 1.0
+[13:52:38] [Client thread/INFO]: [CHAT] Roll: 6.0
+[13:52:38] [Client thread/INFO]: [CHAT] Roll: 4.0
+[13:52:38] [Client thread/INFO]: [CHAT] Roll: 5.0
+[13:52:38] [Client thread/INFO]: [CHAT] Roll: 3.0
+[13:52:48] [Server thread/INFO]: [Player677: Given [d20] * 1 to Player677]
+[13:52:48] [Client thread/INFO]: [CHAT] Given [d20] * 1 to Player677
+[13:52:49] [Client thread/INFO]: [CHAT] Roll: 19.0
+[13:52:49] [Client thread/INFO]: [CHAT] Roll: 10.0
+[13:52:50] [Client thread/INFO]: [CHAT] Roll: 15.0
+[13:52:50] [Client thread/INFO]: [CHAT] Roll: 2.0
+[13:52:50] [Client thread/INFO]: [CHAT] Roll: 15.0
+[13:52:50] [Client thread/INFO]: [CHAT] Roll: 16.0
+[13:52:50] [Client thread/INFO]: [CHAT] Roll: 9.0
+[13:52:50] [Client thread/INFO]: [CHAT] Roll: 17.0
+[13:52:50] [Client thread/INFO]: [CHAT] Roll: 19.0
+[13:52:50] [Client thread/INFO]: [CHAT] Roll: 4.0
+[13:52:50] [Client thread/INFO]: [CHAT] Roll: 7.0
+[13:52:50] [Client thread/INFO]: [CHAT] Roll: 14.0
+[13:52:51] [Client thread/INFO]: [CHAT] Roll: 16.0
+[13:52:51] [Client thread/INFO]: [CHAT] Roll: 19.0
+[13:52:51] [Client thread/INFO]: [CHAT] Roll: 3.0
+[13:52:51] [Client thread/INFO]: [CHAT] Roll: 17.0
+[13:52:51] [Client thread/INFO]: [CHAT] Roll: 16.0
+[13:52:51] [Client thread/INFO]: [CHAT] Roll: 13.0
+[13:52:51] [Client thread/INFO]: [CHAT] Roll: 19.0
+[13:52:51] [Client thread/INFO]: [CHAT] Roll: 14.0
+[13:52:51] [Client thread/INFO]: [CHAT] Roll: 15.0
+[13:52:51] [Client thread/INFO]: [CHAT] Roll: 9.0
+[13:52:52] [Client thread/INFO]: [CHAT] Roll: 7.0
+[13:52:52] [Client thread/INFO]: [CHAT] Roll: 19.0
+[13:52:52] [Client thread/INFO]: [CHAT] Roll: 12.0
+[13:52:52] [Client thread/INFO]: [CHAT] Roll: 7.0
+[13:52:52] [Client thread/INFO]: [CHAT] Roll: 2.0
+[13:52:52] [Client thread/INFO]: [CHAT] Roll: 8.0
+[13:52:52] [Client thread/INFO]: [CHAT] Roll: 11.0
+[13:52:52] [Client thread/INFO]: [CHAT] Roll: 13.0
+[13:52:52] [Client thread/INFO]: [CHAT] Roll: 8.0
+[13:52:52] [Client thread/INFO]: [CHAT] Roll: 6.0
+[13:52:53] [Client thread/INFO]: [CHAT] Roll: 16.0
+[13:52:53] [Client thread/INFO]: [CHAT] Roll: 10.0
+[13:52:53] [Client thread/INFO]: [CHAT] Roll: 3.0
+[13:52:53] [Client thread/INFO]: [CHAT] Roll: 9.0
+[13:52:53] [Client thread/INFO]: [CHAT] Roll: 6.0
+[13:52:53] [Client thread/INFO]: [CHAT] Roll: 12.0
+[13:52:53] [Client thread/INFO]: [CHAT] Roll: 6.0
+[13:52:53] [Client thread/INFO]: [CHAT] Roll: 19.0
+[13:52:53] [Client thread/INFO]: [CHAT] Roll: 16.0
+[13:52:53] [Client thread/INFO]: [CHAT] Roll: 12.0
+[13:52:54] [Client thread/INFO]: [CHAT] Roll: 17.0
+[13:52:54] [Client thread/INFO]: [CHAT] Roll: 14.0
+[13:52:54] [Client thread/INFO]: [CHAT] Roll: 9.0
+[13:52:54] [Client thread/INFO]: [CHAT] Roll: 4.0
+[13:52:54] [Client thread/INFO]: [CHAT] Roll: 6.0
+[13:52:54] [Client thread/INFO]: [CHAT] Roll: 19.0
+[13:52:54] [Client thread/INFO]: [CHAT] Roll: 14.0
+[13:52:54] [Client thread/INFO]: [CHAT] Roll: 9.0
+[13:52:54] [Client thread/INFO]: [CHAT] Roll: 9.0
+[13:52:54] [Client thread/INFO]: [CHAT] Roll: 8.0
+[13:52:55] [Client thread/INFO]: [CHAT] Roll: 14.0
+[13:52:55] [Client thread/INFO]: [CHAT] Roll: 15.0
+[13:52:55] [Client thread/INFO]: [CHAT] Roll: 11.0
+[13:52:55] [Client thread/INFO]: [CHAT] Roll: 13.0
+[13:52:55] [Client thread/INFO]: [CHAT] Roll: 9.0
+[13:52:55] [Client thread/INFO]: [CHAT] Roll: 6.0
+[13:52:55] [Client thread/INFO]: [CHAT] Roll: 3.0
+[13:52:55] [Client thread/INFO]: [CHAT] Roll: 5.0
+[13:52:55] [Client thread/INFO]: [CHAT] Roll: 1.0
+[13:52:55] [Client thread/INFO]: [CHAT] Roll: 12.0
+[13:52:56] [Client thread/INFO]: [CHAT] Roll: 12.0
+[13:52:56] [Client thread/INFO]: [CHAT] Roll: 4.0
+[13:52:56] [Client thread/INFO]: [CHAT] Roll: 4.0
+[13:52:56] [Client thread/INFO]: [CHAT] Roll: 2.0
+[13:52:56] [Client thread/INFO]: [CHAT] Roll: 1.0
+[13:52:56] [Client thread/INFO]: [CHAT] Roll: 12.0
+[13:52:56] [Client thread/INFO]: [CHAT] Roll: 4.0
+[13:52:56] [Client thread/INFO]: [CHAT] Roll: 19.0
+[13:52:56] [Client thread/INFO]: [CHAT] Roll: 1.0
+[13:52:56] [Client thread/INFO]: [CHAT] Roll: 4.0
+[13:52:57] [Client thread/INFO]: [CHAT] Roll: 9.0
+[13:52:57] [Client thread/INFO]: [CHAT] Roll: 9.0
+[13:52:57] [Client thread/INFO]: [CHAT] Roll: 15.0
+[13:52:57] [Client thread/INFO]: [CHAT] Roll: 4.0
+[13:52:57] [Client thread/INFO]: [CHAT] Roll: 11.0
+[13:52:57] [Client thread/INFO]: [CHAT] Roll: 19.0
+[13:52:57] [Client thread/INFO]: [CHAT] Roll: 17.0
+[13:52:57] [Client thread/INFO]: [CHAT] Roll: 8.0
+[13:52:57] [Client thread/INFO]: [CHAT] Roll: 4.0
+[13:52:57] [Client thread/INFO]: [CHAT] Roll: 13.0
+[13:52:58] [Client thread/INFO]: [CHAT] Roll: 1.0
+[13:52:58] [Client thread/INFO]: [CHAT] Roll: 3.0
+[13:52:58] [Client thread/INFO]: [CHAT] Roll: 1.0
+[13:52:58] [Client thread/INFO]: [CHAT] Roll: 10.0
+[13:52:58] [Client thread/INFO]: [CHAT] Roll: 5.0
+[13:52:58] [Client thread/INFO]: [CHAT] Roll: 3.0
+[13:52:58] [Client thread/INFO]: [CHAT] Roll: 9.0
+[13:52:58] [Client thread/INFO]: [CHAT] Roll: 7.0
+[13:52:58] [Client thread/INFO]: [CHAT] Roll: 1.0
+[13:52:58] [Client thread/INFO]: [CHAT] Roll: 14.0
+[13:52:59] [Client thread/INFO]: [CHAT] Roll: 17.0
+[13:52:59] [Client thread/INFO]: [CHAT] Roll: 19.0
+[13:52:59] [Client thread/INFO]: [CHAT] Roll: 5.0
+[13:52:59] [Client thread/INFO]: [CHAT] Roll: 3.0
+[13:53:00] [Client thread/INFO]: [CHAT] Roll: 17.0
+[13:53:00] [Client thread/INFO]: [CHAT] Roll: 3.0
+[13:53:00] [Client thread/INFO]: [CHAT] Roll: 3.0
+[13:53:00] [Client thread/INFO]: [CHAT] Roll: 7.0
+[13:53:00] [Client thread/INFO]: [CHAT] Roll: 13.0
+[13:53:01] [Client thread/INFO]: [CHAT] Roll: 15.0
+[13:53:01] [Client thread/INFO]: [CHAT] Roll: 18.0
+[13:53:01] [Client thread/INFO]: [CHAT] Roll: 12.0
+[13:53:01] [Client thread/INFO]: [CHAT] Roll: 4.0
+[13:53:01] [Client thread/INFO]: [CHAT] Roll: 12.0
+[13:53:01] [Client thread/INFO]: [CHAT] Roll: 7.0
+[13:53:01] [Client thread/INFO]: [CHAT] Roll: 14.0
+[13:53:04] [Client thread/INFO]: [CHAT] Roll: 1.0
+[13:53:05] [Client thread/INFO]: [CHAT] Roll: 4.0
+[13:53:05] [Client thread/INFO]: [CHAT] Roll: 18.0
+[13:53:05] [Client thread/INFO]: [CHAT] Roll: 14.0
+[13:53:05] [Client thread/INFO]: [CHAT] Roll: 19.0
+[13:53:05] [Client thread/INFO]: [CHAT] Roll: 7.0
+[13:53:05] [Client thread/INFO]: [CHAT] Roll: 19.0
+[13:53:05] [Client thread/INFO]: [CHAT] Roll: 20.0
+[13:53:06] [Client thread/INFO]: [CHAT] Roll: 15.0
+[13:53:06] [Client thread/INFO]: [CHAT] Roll: 18.0
+[13:53:06] [Client thread/INFO]: [CHAT] Roll: 14.0
+[13:53:06] [Client thread/INFO]: [CHAT] Roll: 3.0
+[13:53:06] [Client thread/INFO]: [CHAT] Roll: 20.0
+[13:53:06] [Client thread/INFO]: [CHAT] Roll: 14.0
+[13:53:06] [Client thread/INFO]: [CHAT] Roll: 9.0
+[13:53:06] [Client thread/INFO]: [CHAT] Roll: 17.0
+[13:53:06] [Client thread/INFO]: [CHAT] Roll: 5.0
+[13:53:06] [Client thread/INFO]: [CHAT] Roll: 6.0
+[13:53:07] [Client thread/INFO]: [CHAT] Roll: 3.0
+[13:53:07] [Client thread/INFO]: [CHAT] Roll: 4.0
+[13:53:07] [Client thread/INFO]: [CHAT] Roll: 15.0
+[13:53:07] [Client thread/INFO]: [CHAT] Roll: 7.0
+[13:53:07] [Client thread/INFO]: [CHAT] Roll: 11.0
+[13:53:07] [Client thread/INFO]: [CHAT] Roll: 12.0
+[13:53:07] [Client thread/INFO]: [CHAT] Roll: 5.0
+[13:53:07] [Client thread/INFO]: [CHAT] Roll: 14.0
+[13:53:07] [Client thread/INFO]: [CHAT] Roll: 12.0
+[13:53:07] [Client thread/INFO]: [CHAT] Roll: 3.0
+[13:53:08] [Client thread/INFO]: [CHAT] Roll: 9.0
+[13:53:08] [Client thread/INFO]: [CHAT] Roll: 6.0
+[13:53:08] [Client thread/INFO]: [CHAT] Roll: 5.0
+[13:53:08] [Client thread/INFO]: [CHAT] Roll: 13.0
+[13:53:08] [Client thread/INFO]: [CHAT] Roll: 5.0
+[13:53:08] [Client thread/INFO]: [CHAT] Roll: 15.0
+[13:53:08] [Client thread/INFO]: [CHAT] Roll: 4.0
+[13:53:08] [Client thread/INFO]: [CHAT] Roll: 7.0
+[13:53:09] [Client thread/INFO]: [CHAT] Roll: 7.0
+[13:53:09] [Client thread/INFO]: [CHAT] Roll: 7.0
+[13:53:09] [Client thread/INFO]: [CHAT] Roll: 15.0
+[13:53:09] [Client thread/INFO]: [CHAT] Roll: 15.0
+[13:53:10] [Client thread/INFO]: [CHAT] Roll: 9.0
+[13:53:10] [Client thread/INFO]: [CHAT] Roll: 4.0
+[13:53:10] [Client thread/INFO]: [CHAT] Roll: 18.0
+[13:53:10] [Client thread/INFO]: [CHAT] Roll: 19.0
+[13:53:10] [Client thread/INFO]: [CHAT] Roll: 17.0
+[13:53:10] [Client thread/INFO]: [CHAT] Roll: 8.0
+[13:53:11] [Client thread/INFO]: [CHAT] Roll: 18.0
+[13:53:11] [Client thread/INFO]: [CHAT] Roll: 20.0
+[13:53:11] [Client thread/INFO]: [CHAT] Roll: 11.0
+[13:53:11] [Client thread/INFO]: [CHAT] Roll: 16.0
+[13:53:11] [Client thread/INFO]: [CHAT] Roll: 12.0
+[13:53:11] [Client thread/INFO]: [CHAT] Roll: 15.0
+[13:53:11] [Client thread/INFO]: [CHAT] Roll: 3.0
+[13:53:11] [Client thread/INFO]: [CHAT] Roll: 9.0
+[13:53:11] [Client thread/INFO]: [CHAT] Roll: 14.0
+[13:53:11] [Client thread/INFO]: [CHAT] Roll: 3.0
+[13:53:12] [Client thread/INFO]: [CHAT] Roll: 2.0
+[13:53:12] [Client thread/INFO]: [CHAT] Roll: 14.0
+[13:53:12] [Client thread/INFO]: [CHAT] Roll: 7.0
+[13:53:12] [Client thread/INFO]: [CHAT] Roll: 10.0
+[13:53:12] [Client thread/INFO]: [CHAT] Roll: 3.0
+[13:53:12] [Client thread/INFO]: [CHAT] Roll: 2.0
+[13:53:12] [Client thread/INFO]: [CHAT] Roll: 11.0
+[13:53:13] [Client thread/INFO]: [CHAT] Roll: 7.0
+[13:53:13] [Client thread/INFO]: [CHAT] Roll: 14.0
+[13:53:13] [Client thread/INFO]: [CHAT] Roll: 6.0
+[13:53:14] [Server thread/INFO]: Saving and pausing game...
+[13:53:14] [Server thread/INFO]: Saving chunks for level 'gddm-1.0.0 ItemDie'/Overworld
+[13:53:14] [Server thread/INFO]: Saving chunks for level 'gddm-1.0.0 ItemDie'/Nether
+[13:53:14] [Server thread/INFO]: Saving chunks for level 'gddm-1.0.0 ItemDie'/The End
+[13:53:16] [Server thread/INFO]: Stopping server
+[13:53:16] [Server thread/INFO]: Saving players
+[13:53:16] [Server thread/INFO]: Player677 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[13:53:16] [Server thread/INFO]: Player677 left the game
+[13:53:17] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[13:53:17] [Server thread/INFO]: Saving worlds
+[13:53:17] [Server thread/INFO]: Saving chunks for level 'gddm-1.0.0 ItemDie'/Overworld
+[13:53:17] [Server thread/INFO]: Saving chunks for level 'gddm-1.0.0 ItemDie'/Nether
+[13:53:17] [Server thread/INFO]: Saving chunks for level 'gddm-1.0.0 ItemDie'/The End
+[13:53:22] [Client thread/INFO]: Stopping!
+[13:53:22] [Client thread/INFO]: SoundSystem shutting down...
+[13:53:22] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
